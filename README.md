@@ -1,6 +1,6 @@
 # HTML
 - [X] 기본태그
-- [ ] 시멘틱태그
+- [X] 시멘틱태그
 
 ## 기본 태그
 + 블록요소 : <div>
@@ -15,4 +15,4 @@
 ```
   <nav>, <main>, <header>, <section>, <article>, <footer> 
 ```
-
+# CSS
