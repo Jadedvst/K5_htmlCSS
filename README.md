@@ -1,7 +1,8 @@
 # HTML
 - [X] 기본태그
 - [X] 시멘틱태그
-
+## VS Commit
+tag 적고 commit&push
 ## 기본 태그
 + 블록요소 : <div>
 ```
