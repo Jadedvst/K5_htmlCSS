@@ -65,7 +65,27 @@ article > div{
     text-align: center;
 }
 
+article img {
+    border-radius: 50%;
+}
+
 article p {
     width: 70%;
     
+}
+
+footer  {
+    background-color: grey;
+    color: rgb(48, 45, 45);
+    padding: 25px;
+}
+
+footer p{
+    text-align: center;
+}
+.footer_p1 {
+    margin:20px;
+}
+.footer_p2{
+    font-size: small;
 }

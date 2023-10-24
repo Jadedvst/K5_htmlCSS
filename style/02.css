@@ -1,0 +1,76 @@
+* {
+    margin: 0px; /* 바깥쪽 여백 */
+    padding: 0px; /* 안쪽 여백 */
+
+body {
+    background-color: rgb(231, 236, 232);
+    
+    
+}
+main{
+    /* 화면의 #% */
+    width:60vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:20vw;
+}
+
+section, article{
+    width: 80%;
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+article{
+    margin-top: 20px;
+}
+
+ol,ul {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border: 2px solid black;
+}
+ol li{
+    padding: 5px;
+}
+ol>li:hover{
+    background-color: blue;
+}
+
+
+}
+body {
+    background-color: rgb(231, 236, 232);
+    width : 60%;
+    margin-left :20%;
+}
+div{
+    padding:10px;
+}
+div p{
+    background-color:  cadetblue;
+}
+
+ul{
+    list-style:none;
+    background-color: lightgrey;
+}
+li{ padding: 2px;
+    margin-left:30px;
+}
+h2{
+    padding: 10px;
+    margin-bottom:5px;
+    border-radius: 8px;
+    background-color: rgb(204, 121, 90);
+}
+#divimg {
+    text-align: center;
+}
+img {
+    border-radius: 8px;
+}

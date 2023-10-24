@@ -1,0 +1,153 @@
+* {
+    margin: 0px; /* 바깥쪽 여백 */
+    padding: 0px; /* 안쪽 여백 */
+    font-family:Arial, Helvetica, sans-serif
+}
+
+body {
+    background-color: rgb(231, 236, 232);
+
+    padding:20%;
+}
+main{
+       /* 화면의 #% */
+    width:60vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:1500px){
+    main{
+    width:100vw;
+    margin-left: 0vw;
+    
+}
+ol li{
+    width:50px;
+}
+}
+
+section, article{
+    width: 100%; 
+    /* contents to fill up 100% */
+}
+
+
+div {
+    background-color: grey;
+    /* outline-color: black;
+    outline-style: inherit;
+    outline-width: 5px; */
+    padding:10px 30px;
+    margin: 30px;
+    border-radius: 8px;
+}
+
+
+section {text-align: center;
+    
+}
+ h1{
+    border: 5px soilid cadetblue ;
+    color: cadetblue;
+    margin-bottom: 10px;
+    /* margin-left: -90px;
+    margin-right: -90px; */
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+h1,h2{
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+ol {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    list-style: none;
+    border: 2px solid black;
+}
+
+
+ol li{
+    background-color:rgb(204, 121, 90);
+    margin-left:20px;
+   
+    padding:15px 20px;
+    
+    border-radius: 8px;
+    /*padding: 25px 50px 75px 100px; top,r,b,l*/
+
+}
+
+ol a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+ol>li>a:hover {
+    background-color: black;
+    color:white;
+}
+
+#divarticle{
+    margin-right:50%;
+    background-color: rgb(188, 188, 188);
+    border-radius: 8px;
+}
+h2{
+    font-size: medium;
+   margin-bottom: 10px;
+   padding: 20px 20px;
+   
+}
+
+ul a{
+
+    text-decoration: none;
+    color: rgb(64, 103, 105);
+}
+
+ul li{
+    
+    color: rgb(64, 103, 105);
+}
+
+#ul1 {
+    border: 2px solid rgb(205, 205, 205);
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+#ul1 li {
+    background-color:cadetblue;
+    margin-left:20px;
+   
+    padding:5px 20px;
+    margin:15px;
+
+    border-radius: 8px;
+    /*padding: 25px 50px 75px 100px; top,r,b,l*/
+
+}
+
+ul>li>a:hover {
+    background-color: black;
+    color:white;
+}
+
+#ul2 {
+    padding: 0px 0px 0px 25px;
+    border: 2px solid  rgb(205, 205, 205);
+}
+#ul2 li {
+    
+    border: 2px dotted rgb(205, 205, 205);
+}

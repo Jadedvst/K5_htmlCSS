@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- !tab -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        main{
+            width:60vw;
+            height: 60vh;
+            margin-left: 20vw;
+            background-color: cadetblue;
+
+            /*section flex화*/
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section{
+            background-color: aliceblue;
+            width:80%;
+            height: 80%;   
+        }
+
+        /*ul,li flex화*/
+        section, ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ul{
+            border: 3px inset grey;
+            width:80%;
+            height: 80%;
+        }
+
+        li{
+            border: 2px solid brown;
+            width:80%;
+            padding: 20px;
+            margin: 20px;
+            display: flex;
+            
+        }
+        span{
+            background-color: grey;
+            color: white;
+
+            /* box가 되지 않을떄 조정X */
+            display: inline-flex;
+            margin:5px;
+            padding:5px;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            height:40px;
+            /* em:박스의 상대적 사이즈 */
+            font-size: 1em;
+        }
+
+        /* @media only screen and (max-width:768px){ */
+        @media (max-width:768px){
+            main{
+            width:100vw;
+            margin-left: 0vw;
+            
+        }
+        span{
+            width:50px;
+        }
+    </style>
+    <title>CSS 복습</title>
+</head>
+<body>
+    <main>
+        <section>
+            <ul>
+                <li><span>박스1</span><span>O</span>박스X</li>
+                <!-- 인라인 요소가 마지막 적용 -->
+                <li><span style="background-color: cornsilk; color: blue;">박스2</span><span>O</span>박스X</li>
+                <li><a href="index.html">홈으로</a></li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
