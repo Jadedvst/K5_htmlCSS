@@ -5,7 +5,7 @@
     
 }
 body{
-    background-color: grey;
+    background-color: rgb(234, 234, 234);
 }
 main{
        /* 화면의 #% */
@@ -13,8 +13,8 @@ main{
     display:flex;
     flex-direction: column;
     justify-content: top;
-    align-items: top;
-    background-color: grey;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.495);
     margin:20px 20px;
 }
 #divtop{
@@ -31,7 +31,7 @@ main{
 header h1{
     margin-left:30px;
     padding: 10px;
-    color: rgb(193, 157, 15);
+    color: rgb(255, 188, 5);
     font-size:xx-large;
 }
 nav>ul{
@@ -53,14 +53,14 @@ nav a {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 188, 5);
     padding: 5px;
     border-radius: 20px;
 }
 
 nav a:hover {
     height:30px;
-    background-color: rgb(0, 159, 82);
+    background-color: rgb(25, 59, 64);
     color:white;
     justify-content: center;
     align-items: center;
@@ -70,12 +70,12 @@ nav a:hover {
     display: flex;
     justify-content: top;
     align-items: bottom;
-    background-color: rgb(183, 183, 194);
+    background-color: rgb(25, 59, 64);
     list-style: none;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 188, 5);
 }
 #top2_ul span{
-    background-color: rgb(38, 40, 54);
+    background-color: rgba(22, 46, 53, 0.831);
             color: white;
             /* box가 되지 않을떄 조정X */
             display: inline-flex;
@@ -90,7 +90,7 @@ nav a:hover {
 }
 #top2_ul span:hover {
     
-    background-color: rgb(0, 159, 82);
+    background-color: rgb(209, 209, 0);
     color:white;
     justify-content: center;
     align-items: center;
@@ -108,21 +108,36 @@ nav a:hover {
 main h1{
     margin:10px 20px;
 }
+
+#divbutton{
+    display: flex;
+}
 button {
-    margin:10px 20px;
+    margin:10px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-color: rgb(188, 156, 105);
+    background-color: rgb(162, 204, 246);
     border-radius: 20px;
 }
 
 button:hover {
  
-    background-color: rgb(0, 159, 82);
+    background-color: rgba(157, 196, 0, 0.518);
     color:white;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+#divmsg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+    color:cadetblue;
+    width:50%;
+    height:80px;
+    text-align: center;
 }

@@ -4,24 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        main{
-            background-color: aqua;
-        }
+        main{background-color: aqua;}
     </style>
     
     <!-- 외부 스타일 연결 -->
+    <!-- <link rel="stylesheet" type="text/css" href="./style/container.css"> -->
     <link rel="stylesheet" type="text/css" href="./style/07.css">
     <title>자바스크립트</title>
 
     <!-- 함수는 스크립트 내에 -->
     <script>
-        function hello1() {
-            alert("Hello!");
-        }
-        function hello2() {
-            alert("Hello Again!");
-        }
+        // function hello(n) {
+        //     alert("Hello!버튼" + n);
+        // }
         
+        const hello = (n) => { //화살표 함수
+            // alert("Hello!버튼" + n);
+            // document.getElementById('divmsg').innerHTML
+            //  = "<h2>Hello!버튼" + n+"</h2>";
+            document.querySelector('.clmsg').innerHTML
+             = "<h2>Hello!버튼" + n+"</h2>";
+        }
+       //---변수는 스크립트 내에----//
+        const hi = 7; 
+        const hin = () =>{}
+        //const 값 바꿀 수 없음
+        //let 값 바꿀 수 있음
+        
+
     </script>
 
 </head>
@@ -46,9 +56,12 @@
     </header>
     <main>
         <h1>자바스크립트 01</h1>
-        <div>
-            <button onclick='hello1()'>버튼1을 눌러주세용</button>
-            <button onclick='hello2()'>버튼2를 눌러주세용</button>
+        <div id="divbutton">
+            <button onclick='hello(1)'>버튼1을 눌러주세용</button>
+            <button onclick='hello(2)'>버튼2를 눌러주세용</button>
+        </div>
+        <div id="divmsg" class="clmsg">
+            
         </div>
     </main>
 </body>
