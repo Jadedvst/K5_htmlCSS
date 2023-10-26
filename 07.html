@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        main{
+            background-color: aqua;
+        }
+    </style>
+    
+    <!-- 외부 스타일 연결 -->
+    <link rel="stylesheet" type="text/css" href="./style/07.css">
+    <title>자바스크립트</title>
+
+    <!-- 함수는 스크립트 내에 -->
+    <script>
+        function hello1() {
+            alert("Hello!");
+        }
+        function hello2() {
+            alert("Hello Again!");
+        }
+        
+    </script>
+
+</head>
+<body>
+    
+    <header>
+        <div id="divtop">
+            <h1>JavaScript</h1>
+        
+            <nav>
+                <ul id="top_ul">
+                    <li><span> <a href="https://www.w3schools.com/html/default.asp">w3schools HTML</a></span></li>
+                    <li><a href="index.html">To Home</a></li>
+                </ul>
+            </nav>
+        </div>
+        <ul id="top2_ul">
+            <li><span> <a href="https://www.w3schools.com/html/default.asp">w3schools HTML</a></span></li>
+            <li><span><a href="https://www.w3schools.com/js/default.asp">w3schools JS</a></span></li>
+        </ul>
+    
+    </header>
+    <main>
+        <h1>자바스크립트 01</h1>
+        <div>
+            <button onclick='hello1()'>버튼1을 눌러주세용</button>
+            <button onclick='hello2()'>버튼2를 눌러주세용</button>
+        </div>
+    </main>
+</body>
+</html>

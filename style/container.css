@@ -1,0 +1,17 @@
+* {
+    margin: 0px; /* 바깥쪽 여백 */
+    padding: 0px; /* 안쪽 여백 */
+    font-family:Arial, Helvetica, sans-serif
+}
+
+main{
+       /* 화면의 #% */
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: aliceblue;
+}

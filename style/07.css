@@ -1,0 +1,128 @@
+* {
+    margin: 0px; /* 바깥쪽 여백 */
+    padding: 0px; /* 안쪽 여백 */
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+body{
+    background-color: grey;
+}
+main{
+       /* 화면의 #% */
+  
+    display:flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: top;
+    background-color: grey;
+    margin:20px 20px;
+}
+#divtop{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* width:80vw;
+    height:10vh; */
+    padding:10px;
+    /* margin-left:5vw; */
+}
+header h1{
+    margin-left:30px;
+    padding: 10px;
+    color: rgb(193, 157, 15);
+    font-size:xx-large;
+}
+nav>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+}
+
+nav li{
+    margin: 0px 10px;
+    padding:5px;
+    font-style: larger;
+}
+
+nav a {
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    height:30px;
+    background-color: rgb(0, 159, 82);
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+
+#top2_ul{  
+    display: flex;
+    justify-content: top;
+    align-items: bottom;
+    background-color: rgb(183, 183, 194);
+    list-style: none;
+    border: 2px solid black;
+}
+#top2_ul span{
+    background-color: rgb(38, 40, 54);
+            color: white;
+            /* box가 되지 않을떄 조정X */
+            display: inline-flex;
+            margin:0px 0.5px;
+            padding:5px 10px;
+            justify-content: center;
+            align-items: center;
+           
+            height:30px;
+            /* em:박스의 상대적 사이즈 */
+            font-size: 1em;
+}
+#top2_ul span:hover {
+    
+    background-color: rgb(0, 159, 82);
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+
+#top2_ul a {
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+main h1{
+    margin:10px 20px;
+}
+button {
+    margin:10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(188, 156, 105);
+    border-radius: 20px;
+}
+
+button:hover {
+ 
+    background-color: rgb(0, 159, 82);
+    color:white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
