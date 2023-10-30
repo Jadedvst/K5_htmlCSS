@@ -39,9 +39,10 @@ const userImg = document.querySelector("#user");
     //4. 유저
         var btArr =new Array(6);
         var btTextArr =new Array(6);
-        for (var i=0;i<6;i++){
-              btArr(i) = document.createElement("button");
-
+        for (var i=1;i<7;i++){
+            btArr(i) = document.createElement("button");
+            btTextArr(i) = document.createTextNode(`${i}`);
+            
         }
    
     const bt1Text = document.createTextNode("버튼3을 눌러주세요")  ;
