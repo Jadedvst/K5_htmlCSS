@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        main{background-color: aqua;}
+    </style>
+    
+    <!-- 외부 스타일 연결 -->
+    <!-- <link rel="stylesheet" type="text/css" href="./style/container.css"> -->
+    
+    <link rel="stylesheet" type="text/css" href="./style/09_updown.css">
+    <title>JS updown</title>
+
+    <!-- 함수는 스크립트 내에 -->
+    <script src="./script/09_updown.js">
+   
+    </script>
+
+</head>
+<body>
+    
+    <header>
+        <div id="divtop">
+            <h1>JavaScript</h1>
+        
+            <nav>
+                <ul id="top_ul">
+                    <li><span> <a href="https://www.w3schools.com/html/default.asp">w3schools HTML</a></span></li>
+                    <li><a href="index.html">To Home</a></li>
+                </ul>
+            </nav>
+        </div>
+        <ul id="top2_ul">
+            <li><span> <a href="https://www.w3schools.com/html/default.asp">w3schools HTML</a></span></li>
+            <li><span><a href="https://www.w3schools.com/js/default.asp">w3schools JS</a></span></li>
+        </ul>
+    
+    </header>
+    <main>
+        <section id="sec1">
+            <div class="clh1">
+            <h1>업다운 게임</h1>
+            </div>
+        </section>
+        <section id="sec2">
+            <div id="sec2Div" class="cldice">
+                    <img src="./img/updown/start.png" id = 'mainImg'/>
+            </div>
+            <div>
+            <button id='start'><img src="./img/updown/start.png" id = 'mainImg'/></button>
+        </div>
+            <div id="sec2Div2" class="clbt">
+                <!-- method:get post -->
+                <form>
+                    <input type = "number" id = "input" name="input" placeholder="숫자입력"/>
+                    <button id='submit'><img src="./img/updown/swap_vert.png" id = 'mainImg'/></button>
+                </form>
+            </div>
+        </section>
+        <!-- <section id="sec3">
+            <h1> 버튼을 선택하세요.</h1>
+            <h2> </h2>
+        </section> -->
+   
+    </main>
+</body>
+</html>

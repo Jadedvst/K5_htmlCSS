@@ -125,12 +125,9 @@ main section {
     border: 3px solid rgb(0, 0, 0);
     border-radius: 8px;
 }
+/*  ------------------------------------------------------- */
 
-
-.clbutton{
-    display: flex;
-}
-button {
+form {
     margin:10px 10px;
     display: flex;
     justify-content: center;
@@ -164,12 +161,9 @@ button:hover {
 }
 
 
-#diceDiv2{
+#sec2Div{
     display: flex;
     justify-content: center;
-}
-
-#diceDiv2 div{
     margin: 20px;
 }
 .cldice2{
@@ -182,8 +176,8 @@ button:hover {
 #diceDiv2 h2{
     margin-bottom:10px;
 }
-
-p{
-    color: rebeccapurple;
+#input{
+    padding:7px;
 }
+
 

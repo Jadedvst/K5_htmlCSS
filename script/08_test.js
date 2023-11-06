@@ -42,29 +42,17 @@ const userImg = document.querySelector("#user");
         for (var i=1;i<7;i++){
             btArr(i) = document.createElement("button");
             btTextArr(i) = document.createTextNode(`${i}`);
+            btArr(i).appendChild(btTextArr(i));
+            btArr(i).setAttribute("id",`bt${i}`);
+            document.querySelector("#btDiv2").append(btArr(i));
+
+            document.getElementById(`bt${i}`).addEventListener("click",()=>{
+                let m = numbt
+                userImg.setAttribute("src",`./img/dice/${m}.png`);
+            })
+            
             
         }
    
-    const bt1Text = document.createTextNode("버튼3을 눌러주세요")  ;
-    bt1.appendChild(bt1Text);
-    bt1.setAttribute("id","bt3");//버튼 속성
-
-    const bt2 = document.createElement("button");
-    const bt2Text = document.createTextNode("버튼4을 눌러주세요")  ;
-    // const bt2Color = document.createEvent(div: "")
-    bt2.appendChild(bt2Text);
-    bt2.setAttribute("id","bt4");//버튼 속성
-
-    document.querySelector("#btDiv2").append(bt1);
-    document.querySelector("#btDiv2").append(bt2);
-
-    //--버튼 이벤트 달기--//
-    document.getElementById('bt3').addEventListener("click",()=>{
-        hello(3);
-
-
-            let m = numbt
-            userImg.setAttribute("src",`./img/dice/${m}.png`);
-    
-        })
+    })
 })
