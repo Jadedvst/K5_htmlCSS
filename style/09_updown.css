@@ -2,17 +2,6 @@
 /* Top menu is javascrip_menu */
 /*  ------------------------------------------------------- */
 
-.clh1{
-    background-color: rgb(115, 144, 147);
-    margin:10px 50px;
-    padding: 10px ;
-    height:50px;
-    width: 60vw;
-    text-align: center;  
-    border: 6px solid black;
-    border-radius: 6px;
-}
-
 
 form {
     margin:10px 10px;
@@ -69,4 +58,9 @@ button:hover {
     
 }
 
+/* animation */
+  
+.slider li.active { 
+    opacity: 1; 
+} 
 
