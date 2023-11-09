@@ -9,7 +9,7 @@
     
     <!-- 외부 스타일 연결 -->
     <!-- <link rel="stylesheet" type="text/css" href="./style/container.css"> -->
-    
+    <link rel="stylesheet" type="text/css" href="./style/javascript_menu.css">
     <link rel="stylesheet" type="text/css" href="./style/09_updown.css">
     <title>JS updown</title>
 
@@ -45,24 +45,26 @@
             </div>
         </section>
         <section id="sec2">
-            <div id="sec2Div" class="cldice">
-                    <img src="./img/updown/start.png" id = 'mainImg'/>
+            <div id="sec2Div1" class="clmain">
+                    <img src="./img/updown/what.png"  id = 'mainImg'/>
             </div>
-            <div>
-            <button id='start'><img src="./img/updown/start.png" id = 'mainImg'/></button>
-        </div>
+            
             <div id="sec2Div2" class="clbt">
-                <!-- method:get post -->
-                <form>
-                    <input type = "number" id = "input" name="input" placeholder="숫자입력"/>
-                    <button id='submit'><img src="./img/updown/swap_vert.png" id = 'mainImg'/></button>
-                </form>
+                <div id = "btDiv1">
+                    <button id='bt1'><img src="./img/updown/start.png" id = 'startImg'/></button>
+                </div>
+                <div  id = "btDiv2">
+                    <form>
+                        <button id='home'><img src="./img/updown/home.png" id = 'bthome' class ='btImg'/></button>
+                        <input type = "number" id = "txt" name="txt" placeholder="숫자입력"/>
+                        <button id='bt2'><img src="./img/updown/swap_vert.png" id = 'btswap_vert' class ='btImg'/></button>
+                    </form>
+                </div>
             </div>
         </section>
-        <!-- <section id="sec3">
-            <h1> 버튼을 선택하세요.</h1>
-            <h2> </h2>
-        </section> -->
+        <section id="sec3">
+            <h1>무슨 수?</h1>
+        </section>
    
     </main>
 </body>

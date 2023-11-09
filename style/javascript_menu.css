@@ -1,0 +1,116 @@
+* {
+    margin: 0px; /* 바깥쪽 여백 */
+    padding: 0px; /* 안쪽 여백 */
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+body{
+    background-color: rgb(234, 234, 234);
+}
+main{
+       /* 화면의 #% */
+  
+    display:flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.495);
+    margin:20px 20px;
+}
+#divtop{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* width:80vw;
+    height:10vh; */
+    padding:10px;
+    /* margin-left:5vw; */
+}
+header h1{
+    margin-left:30px;
+    padding: 10px;
+    color: rgb(255, 188, 5);
+    font-size:xx-large;
+}
+nav>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+}
+
+nav li{
+    margin: 0px 10px;
+    padding:5px;
+    font-style: larger;
+}
+
+nav a {
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 188, 5);
+    padding: 5px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    height:30px;
+    background-color: rgb(25, 59, 64);
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+
+#top2_ul{  
+    display: flex;
+    justify-content: top;
+    align-items: bottom;
+    background-color: rgb(25, 59, 64);
+    list-style: none;
+    border: 2px solid rgb(255, 188, 5);
+}
+#top2_ul span{
+    background-color: rgba(22, 46, 53, 0.831);
+            color: white;
+            /* box가 되지 않을떄 조정X */
+            display: inline-flex;
+            margin:0px 0.5px;
+            padding:5px 10px;
+            justify-content: center;
+            align-items: center;
+           
+            height:30px;
+            /* em:박스의 상대적 사이즈 */
+            font-size: 1em;
+}
+#top2_ul span:hover {
+    
+    background-color: rgb(209, 209, 0);
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+
+#top2_ul a {
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.856);
+}
+
+
+main section {
+    width: 80%;
+    margin:10px 0px;
+    padding:20px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
