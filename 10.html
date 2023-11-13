@@ -47,25 +47,33 @@
     
         <section id="sec2">
             <form>
-                <div id="divsel" class = "fdiv">
+                <div id="divsel1" class = "fdiv">
                     <!-- select는 반드시 option을 지녀야하고
                         value 값은 option에 넣어야한다 -->
-                    <select id="'sel1" name="'sel1">
-                        <option value=''>선택</option>
-                        <option value='c' selected>섭씨온도(℃)</option>
-                        <option value='f'>화씨온도(℉)</option>
-                    </select>
-                    <input type = 'number' id="'txt1" name="txt1">
-                    <span id="txt1span">℃</span>
+                    <div>
+                        <select id="sel1" class = 'sel' name="'sel1">
+                            <option value=''>선택</option>
+                            <option value='℃' selected>섭씨온도(℃)</option>
+                            <option value='℉'>화씨온도(℉)</option>
+                        </select>
+                    </div>
+                    <div> 
+                        <input type = 'number' id="num1" name="num1">
+                        <span id="unit1">℃</span>
+                    </div>
                 </div>
-                <div id="divsel2" class = "fdiv">    
-                    <select id="'sel2" name="'sel2">
-                        <option value=''>선택</option>
-                        <option value='c'>섭씨온도(℃)</option>
-                        <option value='f' selected>화씨온도(℉)</option>
-                    </select>
-                    <input type = 'number' id="'txt2" name="txt2">
-                    <span id="txt2span">℉</span>
+                <div id="divsel2" class = "fdiv"> 
+                    <div>  
+                        <select id="sel2" class = 'sel' name="'sel2" >
+                            <option value=''>선택</option>
+                            <option value='℃'>섭씨온도(℃)</option>
+                            <option value='℉' selected>화씨온도(℉)</option>
+                        </select>
+                    </div> 
+                    <div>
+                        <input type = 'number' id="num2" name="num2" readonly>
+                        <span id="unit2">℉</span>
+                    </div>
                 </div>
             </form>
         </section>   
