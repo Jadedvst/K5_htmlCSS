@@ -66,23 +66,22 @@ h1,h2{
 }
 
 ol {
-    padding: 20px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
+    height: 60px;
     list-style: none;
     border: 2px solid black;
 }
 
 
 ol li{
-    background-color:rgb(204, 121, 90);
-    margin-left:20px;
-   
-    padding:15px 20px;
-    
+    background-color:rgba(204, 120, 90, 0.772);
     border-radius: 8px;
+    padding: 10px;
+    margin:0px 5px;
+    height:100%;
     /*padding: 25px 50px 75px 100px; top,r,b,l*/
 
 }
@@ -91,7 +90,7 @@ ol a{
     text-decoration: none;
     color: blanchedalmond;
 }
-ol>li>a:hover {
+ol>li>span:hover {
     background-color: black;
     color:white;
 }
