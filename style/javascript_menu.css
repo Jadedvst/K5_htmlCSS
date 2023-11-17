@@ -129,3 +129,23 @@ main section {
     border: 6px solid black;
     border-radius: 6px;
 }
+
+
+.bt{
+    width:20vw;
+    padding:10px;
+    border-radius: 8px;
+    background-color: rgba(255, 179, 0, 0.64);
+    color: white;
+    font-style: bold;
+}
+
+#reset{
+    margin:10px;
+    width:20vw;
+    padding:5px;
+    border-radius: 8px;
+    background-color: rgba(218, 62, 1, 0.684);
+    color: white;
+    font-style: bold;
+}
