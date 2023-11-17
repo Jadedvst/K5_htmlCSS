@@ -19,7 +19,7 @@ const img = document.querySelector("#diceDiv img")
         console.log("n",n);
 
 //4. 생성된 랜덤수에 해당하는 이미지 보여주기
-        img.setAttribute("src",`./img/dice/${n}.png`);
+        img.setAttribute("src",`../img/dice/${n}.png`);
 
     })
 
@@ -34,7 +34,7 @@ const userImg = document.querySelector("#user");
     //3. 컴퓨터
             let n = Math.floor(Math.random()*6+1); //0~5
             console.log("n",n);
-            comImg.setAttribute("src",`./img/dice/${n}.png`);
+            comImg.setAttribute("src",`../img/dice/${n}.png`);
     
     //4. 유저
         var btArr =new Array(6);
@@ -48,7 +48,7 @@ const userImg = document.querySelector("#user");
 
             document.getElementById(`bt${i}`).addEventListener("click",()=>{
                 let m = numbt
-                userImg.setAttribute("src",`./img/dice/${m}.png`);
+                userImg.setAttribute("src",`../img/dice/${m}.png`);
             })
             
             

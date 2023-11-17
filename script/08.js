@@ -19,7 +19,7 @@ const img = document.querySelector("#diceDiv img")
         console.log("n",n);
 
 //4. 생성된 랜덤수에 해당하는 이미지 보여주기
-        img.setAttribute("src",`./img/dice/${n}.png`);
+        img.setAttribute("src",`../img/dice/${n}.png`);
 
     })
 })

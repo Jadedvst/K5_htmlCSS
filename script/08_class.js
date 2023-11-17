@@ -6,8 +6,8 @@ const handleBtClick = (comImg,userImg,num, msg) => {
     console.log("com: ",com,"user: ",user);
 
     //2.주사위 이미지 변경
-    comImg.setAttribute("src",`./img/dice/${com}.png`)
-    userImg.setAttribute("src",`./img/dice/${num}.png`)
+    comImg.setAttribute("src",`../img/dice/${com}.png`)
+    userImg.setAttribute("src",`../img/dice/${num}.png`)
     //3.결과만들기
     // if(num===com){//data 값 까지 같을시
     //     msg.innerHTML="<p>비김!</p>"

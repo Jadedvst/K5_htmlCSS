@@ -8,12 +8,13 @@
     </style>
     
     <!-- 외부 스타일 연결 -->
-    <!-- <link rel="stylesheet" type="text/css" href="./style/container.css"> -->
-    <link rel="stylesheet" type="text/css" href="./style/08.css">
-    <title>JS 주사위 게임</title>
+    <!-- <link rel="stylesheet" type="text/css" href="../style/container.css"> -->
+    <link rel="stylesheet" type="text/css" href="../style/javascript_menu.css">
+
+    <title>Global Local Variable</title>
 
     <!-- 함수는 스크립트 내에 -->
-    <script src="./script/08_class.js">
+    <script src="../script/13.js">
    
     </script>
 
@@ -40,36 +41,26 @@
     <main>
         <section id="sec1">
             <div class="clh1">
-            <h1>주사위 게임</h1>
+            <h1>전역변수사용</h1>
             </div>
         </section>
+    
         <section id="sec2">
-            <div id="diceDiv2" class="cldice">
-                <div id="comDiv" class="cldice2">
-                    <h2>Com</h2>
-                    <img src="./img/dice/6.png" id = 'com'/>
-                    
+            <form>
+                <div id="div1" class = "fdiv">
+                    <div id="div1_1"class="div1">
+                        <span id="sp0" class="sp">0</span>
+                    </div>
+                    <div id="div1_1"class="div1">
+                        <span id="sp1" class="sp">🤩</span>
+                        <span id="sp2" class="sp">😥</span>
+                    </div>
                 </div>
-                <div id="userDiv" class="cldice2">
-                    <h2>Me</h2>
-                    <img src="./img/dice/6.png" id = 'user'/>
-                    
+                <div id="div2" class = "fdiv"> 
+                    <div><button id="reset" class=>RESET</button></div>                  
                 </div>
-            </div>
-            <div id="btDiv2" class="clbt">
-                <button id="bt1">1</button>
-                <button id="bt2">2</button>
-                <button id="bt3">3</button>
-                <button id="bt4">4</button>
-                <button id="bt5">5</button>
-                <button id="bt6">6</button>
-            </div>
-        </section>
-        <section id="sec3">
-            <h1> 버튼을 선택하세요.</h1>
-            <h2> </h2>
-        </section>
-   
+            </form>
+        </section>   
     </main>
 </body>
 </html>

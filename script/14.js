@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded",()=>{
 
         //중복 금지//filter처럼 원하는 값만 배출하려고 할시 while
         while (arr.length<7){
-            let n = Math.floor(Math.random()*45) + 1;
+            let n = Math.floor(Math.random()*45) + 1;//1에서 46까지의 랜덤수
             if(!arr.includes(n)) arr.push(n);
         }
         console.log(arr);

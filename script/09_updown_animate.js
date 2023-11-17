@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
     const showImg = (x) =>{
         const mainImg = document.querySelector("#mainImg")
         const msg = document.querySelector("#sec3 h1")
-        mainImg.setAttribute("src",`./img/updown/${x}.png`)
+        mainImg.setAttribute("src",`../img/updown/${x}.png`)
         console.log(x)
         msg.innerHTML = x+"!";
     }
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
         });
 
         if (userNum=== randomNum){
-            // mainImg.setAttribute("src","./img/updown/good.png")
+            // mainImg.setAttribute("src","../img/updown/good.png")
             showImg("good")
             // msg.innerHtml("딩동댕!")
             divShow(btDiv1, btDiv2, false)
