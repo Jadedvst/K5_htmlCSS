@@ -1,0 +1,54 @@
+#div1{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    
+}
+.div1{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/*-----------------/ box line /--------------------*/
+.box{
+    border-left: 1px solid rgba(61, 61, 61);
+    border-top: 1px solid rgba(61, 61, 61);
+    /* 글자에 justify-content를 사용하려면 display flex를 사용해야한다 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+}
+#d5>div{
+    border-bottom: 1px solid rgba(61, 61, 61);
+}
+#box5,#box10,#box15,#box20,#box25{
+    border-right: 1px solid rgba(61, 61, 61);
+}
+/*--------------------------------------------------*/
+.box:hover{
+    background-color: black;
+    color:aliceblue;
+}
+.fdiv{
+    margin-top: 30px;
+
+}
+
+.bt,#reset{
+    margin:10px;
+    width:150px;
+    height: 5vh;
+    padding:10px;
+    border-radius: 8px;
+    background-color: rgba(255, 179, 0, 0.64);
+    color: white;
+    font-style: bold;
+}
+
+#reset{
+    background-color: rgba(218, 63, 1, 0.829);
+}
