@@ -4,13 +4,16 @@ let arr =[0,0,0,0,0,
           0,0,1,1,1,
           1,1,1,1,1];
 let isShuffle=false;
+const sHide=(s,h)=>{
+    h.style.display="none";
+    s.style.display="block";
+}
 
 document.addEventListener("DOMContentLoaded",()=>{
-    const box = document.querySelectorAll(".box");
+    const boxes = document.querySelectorAll(".box");
     const bt = document.querySelector("#bt1");
     const reset = document.querySelector("#reset");
-    reset.style.display = "none";
-    bt.style.display = "block";
+    sHide(bt,reset);
     bt.addEventListener("click",(e)=>{
         e.preventDefault();
         if(!isShuffle){
@@ -20,18 +23,20 @@ document.addEventListener("DOMContentLoaded",()=>{
             -sort((a,b)=>a-b):숫자 오름차순
             -sort((a,b)=>b-a):숫자 내림차순
             */
-            reset.style.display = "block";
-            bt.style.display = "none";
+            sHide(reset,bt);
             console.log(arr);
             isShuffle=true;
             
         }
     })
 
-    box.forEach((box,idx)=>
+    boxes.forEach((box,idx)=>
         box.addEventListener("click",(e)=>{
             e.preventDefault();
-            if(isShuffle){
+            if(!isShuffle){
+                alert("폭탄을 배치해주세요!")
+            }
+            else{
                 let tags="";
                 console.log(arr[idx]);
                 if(arr[idx]==0)
@@ -46,7 +51,7 @@ document.addEventListener("DOMContentLoaded",()=>{
             }
         }))
 
-    box.forEach(box=>
+    boxes.forEach(box=>
         box.addEventListener("contextmenu",(e)=>{
             e.preventDefault();
             box.innerHTML="FLAG";

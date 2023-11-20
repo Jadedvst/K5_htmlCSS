@@ -131,9 +131,9 @@ main section {
 }
 
 
-.bt{
+.bt,#reset{
     width:20vw;
-    padding:10px;
+    height:5vh;
     border-radius: 8px;
     background-color: rgba(255, 179, 0, 0.64);
     color: white;
@@ -141,11 +141,5 @@ main section {
 }
 
 #reset{
-    margin:10px;
-    width:20vw;
-    padding:5px;
-    border-radius: 8px;
     background-color: rgba(218, 62, 1, 0.684);
-    color: white;
-    font-style: bold;
 }
