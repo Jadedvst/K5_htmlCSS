@@ -36,41 +36,56 @@
         <ul id="top2_ul">
             <li><span> <a href="https://www.w3schools.com/html/default.asp">w3schools HTML</a></span></li>
             <li><span><a href="https://www.w3schools.com/js/default.asp">w3schools JS</a></span></li>
+            <li><span><a href='https://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do'>
+                BoxOfficeAPI</a></span></li>
         </ul>
     
     </header>
     <main>
         <section id="sec1">
             <div class="clh1">
-            <h1>NextJS</h1>
+            <h1><a href='https://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do'>
+                일일박스오피스</a></h1>
             </div>
         </section>
     
         <section id="sec2">
-            <form>
+            <form name="inform">
                 <div id="div1" class = "fdiv">
                     <div id="d1"class="div1">
-                   
+                        <label for="date">날짜를 선택해주세요</label>
+                        <input type="date" name="date" id="date" max="">
                     </div>
                     <div id="d2"class="div1">
-                       
-                    </div>
-                    <div id="d3"class="div1">
-                        
-                    </div>
-                    <div id="d0"class="div0">
-                        <div id="msg"></div>
+                        <fieldset class="d2">
+                            <legend>영화 구분</legend>
+                            <!-- radio name이 같을시 중복 방지 -->
+                            <!-- 기본값: checked -->
+                            <input type="radio" id="r1" name="category" value="1" checked>
+                            <label for="r1">전체</label><br>
+                            <input type="radio" id="r2" name="category" value="2">
+                            <label for="r2">독립예술영화</label><br>
+                            <input type="radio" id="r3" name="category" value="3">
+                            <label for="r3">상업영화</label>
+                        </fieldset>
+                        <div"class="d2">
+                            <button id="d2bt"class="bt">조회</button>
+                        </div>
                     </div>
                 </div>
-                <div id="div2" class = "fdiv"> 
-                    <div id="d2"class="div2">
-                        <button id="bt1" class="bt">폭탄 배치</button>
-                        <button id="reset" class="bt">RESET</button>
-                    </div> 
+                <div id="div0"class="fdiv">
+                    <div id="msg"></div>
                 </div>
-                <div id="div3" class = "fdiv">                  
+            </form>  
+        </section>   
+        <section id="sec3">
+            <form>
+                <div id="div2" class = "fdiv">
+                    <div id="tbDiv"class="div2">
+                        <!-- JS로 table -->
+                    </div>
                 </div>
-            </form>
+            </form>  
         </section>   
     </main>
 </body>

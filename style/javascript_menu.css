@@ -30,6 +30,7 @@ main{
     padding:10px;
     /* margin-left:5vw; */
 }
+
 header h1{
     margin-left:30px;
     padding: 10px;
@@ -118,7 +119,12 @@ main section {
 }
 
 
-/* 타이틀 */
+/* 타이틀 ---------------------------------------*/
+.clh1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
 .clh1{
     background-color: rgb(115, 144, 147);
     margin:10px 50px;
@@ -129,7 +135,7 @@ main section {
     border: 6px solid black;
     border-radius: 6px;
 }
-
+/* --------------------------------------------*/
 
 .bt,#reset{
     width:20vw;
